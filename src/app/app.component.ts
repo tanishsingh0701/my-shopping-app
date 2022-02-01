@@ -9,10 +9,5 @@ import { RecipesComponent } from './recipes/recipes.component';
 export class AppComponent {
   title = 'my-shopping-app';
 
-  loadedFeature='Recipes';
-  onNavigate(feature:string)
-  {
-    this.loadedFeature=feature;
-
-  }
+ 
 }
